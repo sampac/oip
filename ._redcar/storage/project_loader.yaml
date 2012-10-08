@@ -1,0 +1,8 @@
+--- 
+open_files: 
+  - app/views/groups/show.html.erb
+  - app/views/people/show.html.erb
+  - app/controllers/groups_controller.rb
+  - app/controllers/people_controller.rb
+  - db/schema.rb
+  - app/views/layouts/application.html.erb

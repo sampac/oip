@@ -1,0 +1,55 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @person.name %>
+</p>
+
+<p>
+  <b>Role:</b>
+  <%= @person.role %>
+</p>
+
+<p>
+  <b>Firstname:</b>
+  <%= @person.firstname %>
+</p>
+
+<p>
+  <b>Group:</b>
+  <%= @person.group_id %>
+</p>
+
+<p>
+  <b>Child:</b>
+  <%= @person.person_id %>
+</p>
+
+<% if @person.people %>
+  <h2>Ouders</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th></th> 
+      <th></th>
+    </tr>
+  
+  <% @person.people.each do |parent| %>
+    <tr>
+      <td><%= link_to parent.name, parent %></td>
+      <td><%= link_to 'Show', parent %></td>
+      <td><%= link_to 'Edit', edit_person_path(parent) %></td>
+    </tr>
+  
+  <% end %>
+</table>
+<% end %>
+
+<div style="clear: both">
+  <% if @person.group %>
+    <%= link_to 'Nieuwe ouder',{:controller => '/people', :action => :new, :person_id => @person.id}, :class => 'btn' %>
+    <%= link_to 'Back', group_path(@person.group), :class => 'btn' %>
+  <% end %>
+  <%= link_to 'Edit', edit_person_path(@person), :class => 'btn' %>
+  <%= link_to 'Destroy', @person, confirm: 'Are you sure?', method: :delete, :class => 'btn' %>
+</div>

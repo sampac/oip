@@ -1,0 +1,119 @@
+--- 
+cursor_positions: 
+  - :path: app/assets/stylesheets/application.css
+    :cursor_offset: 545
+    :timestamp: 2012-09-25 14:17:01.732000 +02:00
+  - :path: app/views/calendaritems/show.html.erb
+    :cursor_offset: 195
+    :timestamp: 2012-09-25 14:34:36.230000 +02:00
+  - :path: db/migrate/20120925123435_create_calendaritems.rb
+    :cursor_offset: 212
+    :timestamp: 2012-09-25 14:45:18.260000 +02:00
+  - :path: app/views/calendaritems/index.html.erb
+    :cursor_offset: 10
+    :timestamp: 2012-09-25 15:18:02.246000 +02:00
+  - :path: app/views/calendaritems/_form.html.erb
+    :cursor_offset: 536
+    :timestamp: 2012-09-25 14:34:36.241000 +02:00
+  - :path: db/development.sqlite3
+    :cursor_offset: 0
+    :timestamp: 2012-09-26 13:59:31.786000 +02:00
+  - :path: db/migrate/20120926115723_add_school_id_to_schools.rb
+    :cursor_offset: 70
+    :timestamp: 2012-09-26 14:31:47.723000 +02:00
+  - :path: app/helpers/application_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-25 14:17:01.747000 +02:00
+  - :path: app/views/groups/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-09-26 12:00:44.719000 +02:00
+  - :path: app/assets/stylesheets/scaffolds.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-09-26 10:43:20 +02:00
+  - :path: app/helpers/schools_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-26 11:39:16 +02:00
+  - :path: app/views/groups/_form.html.erb
+    :cursor_offset: 33
+    :timestamp: 2012-09-26 20:09:42.473000 +02:00
+    :selection_offset: 65
+    :block_selection_mode: false
+  - :path: app/assets/stylesheets/groups.css.scss
+    :cursor_offset: 349
+    :timestamp: 2012-09-27 14:49:34.397000 +02:00
+  - :path: app/controllers/schools_controller.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-26 11:39:16 +02:00
+  - :path: app/models/school.rb
+    :cursor_offset: 76
+    :timestamp: 2012-09-27 15:04:11.052000 +02:00
+    :selection_offset: 93
+    :block_selection_mode: false
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 1221
+    :timestamp: 2012-10-06 20:09:58.321000 +02:00
+  - :path: db/schema.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-29 11:28:08.669000 +02:00
+  - :path: app/controllers/groups_controller.rb
+    :cursor_offset: 240
+    :timestamp: 2012-09-27 14:59:51.321000 +02:00
+  - :path: app/models/group.rb
+    :cursor_offset: 53
+    :timestamp: 2012-09-29 00:03:48.492000 +02:00
+    :selection_offset: 89
+    :block_selection_mode: false
+  - :path: db/migrate/20120926093914_create_schools.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-26 11:55:22 +02:00
+  - :path: db/migrate/20120926100044_create_groups.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-26 12:00:46 +02:00
+  - :path: db/migrate/20120926145506_add_school_id_to_groups.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-26 16:55:08 +02:00
+  - :path: db/migrate/20120927140737_create_people.rb
+    :cursor_offset: 0
+    :timestamp: 2012-09-27 16:07:37.443000 +02:00
+  - :path: db/migrate/20120929092503_add_street_to_person.rb
+    :cursor_offset: 303
+    :timestamp: 2012-09-29 11:27:08.606000 +02:00
+  - :path: app/controllers/people_controller.rb
+    :cursor_offset: 593
+    :timestamp: 2012-10-07 23:57:19.389000 +02:00
+  - :path: app/models/person.rb
+    :cursor_offset: 89
+    :timestamp: 2012-09-29 00:04:18.787000 +02:00
+  - :path: app/views/schools/index.html.erb
+    :cursor_offset: 456
+    :timestamp: 2012-09-26 13:41:58 +02:00
+  - :path: app/views/people/show.html.erb
+    :cursor_offset: 277
+    :timestamp: 2012-10-07 23:58:39.083000 +02:00
+  - :path: app/views/groups/index.html.erb
+    :cursor_offset: 437
+    :timestamp: 2012-09-26 16:59:04 +02:00
+  - :path: app/views/groups/show.html.erb
+    :cursor_offset: 733
+    :timestamp: 2012-10-05 23:53:22.446000 +02:00
+    :selection_offset: 799
+    :block_selection_mode: false
+  - :path: app/views/schools/show.html.erb
+    :cursor_offset: 173
+    :timestamp: 2012-09-28 23:44:05.822000 +02:00
+  - :path: db/migrate/20121007215440_add_personid_to_people.rb
+    :cursor_offset: 143
+    :timestamp: 2012-10-07 23:56:56.754000 +02:00
+  - :path: app/views/people/_form.html.erb
+    :cursor_offset: 135
+    :timestamp: 2012-10-08 00:02:44.796000 +02:00
+  - :path: app/views/people/edit.html.erb
+    :cursor_offset: 125
+    :timestamp: 2012-09-29 11:20:30.691000 +02:00
+  - :path: app/views/people/new.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-09-27 16:07:37.979000 +02:00
+  - :path: app/views/people/index.html.erb
+    :cursor_offset: 388
+    :timestamp: 2012-10-07 23:58:05.844000 +02:00
+files_to_retain: 0

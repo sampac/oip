@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<h1>
+  Groep <%= @group.name %>
+</h1>
+
+<table class="table">
+  <tr>
+    <th>Naam</th>
+    <th>Adres</th>
+    <th>Ouder 1</th>
+    <th>Ouder 2</th>
+  </tr>
+
+<% @group.people.each do |person| %>
+  <tr>
+    <td><%= link_to person.firstname, person %></td>
+    <td><%= person.Street %><br /><%= person.PostalCode %> <%= person.City %></td>
+    <td></td>
+    <td></td>
+  </tr>
+<% end %>
+</table>
+
+<div style="clear: both">
+<%= link_to 'Nieuwe leerling',{:controller => '/people', :action => :new, :group_id => @group.id}, :class => 'btn' %> |
+<%= link_to 'Edit', edit_group_path(@group), :class => 'btn' %> |
+<%= link_to 'Destroy', @group, confirm: 'Are you sure?', method: :delete, :class => 'btn' %> |
+<%= link_to 'Back', school_path(@group.school), :class => 'btn' %>
+</div>

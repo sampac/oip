@@ -1,0 +1,45 @@
+<%= form_for(@person, :html => { :class => "form-horizontal"}) do |f| %>
+  <%= f.hidden_field :group_id %>
+  <%= f.hidden_field :person_id %>
+  <% if @person.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@person.errors.count, "error") %> prohibited this person from being saved:</h2>
+
+      <ul>
+      <% @person.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="control-group">
+    <%= f.label :name, :class => 'control-label' %>
+    <div class="controls"><%= f.text_field :name, :class => 'control-label' %></div>
+  </div>
+  <div class="control-group">
+    <%= f.label :firstname, :class => 'control-label' %>
+    <div class="controls"><%= f.text_field :firstname, :class => 'control-label' %></div>
+  </div>
+  <h2>Adres</h2>
+  <div class="control-group">
+    <%= f.label :street, :class => 'control-label' %>
+    <div class="controls"><%= f.text_field :Street, :class => 'control-label' %></div>
+  </div>
+  <div class="control-group">
+    <%= f.label :postalcode, :class => 'control-label' %>
+    <div class="controls"><%= f.text_field :PostalCode, :class => 'control-label' %></div>
+  </div>
+  <div class="control-group">
+    <%= f.label :city, :class => 'control-label' %>
+    <div class="controls"><%= f.text_field :City, :class => 'control-label' %></div>
+  </div>
+  
+  <div class="field">
+    <%= f.label :role %><br />
+    <%= f.text_field :role %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
